@@ -1,0 +1,38 @@
+@import "./variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(196, 180, 160);
+}
+
+.navigation-store {
+	
+	height: 100px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+.logo {
+	margin-left: 90px;
+	color: white;
+	text-decoration: none;
+	font-size:2em;
+}
+.routed-link{
+	margin-right: 100px;
+}
+.link-to {
+	margin-right: 20px;
+	color: white;
+		/* відступ між елементами */
+	}
+
